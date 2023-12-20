@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ed Sheeran</title>
+   <link rel="stylesheet" type="text/css" href="../css/practice.css" />
+</head>
+
+<body>
+   <div class="container">
+      <!-- layer 1: header -->
+      <div class="imgheader">
+         <div class="header">
+            <h1 class="font-effect-fire-animation">Welcome to <br /> Ed Sheeran World</h1>
+         </div>
+      </div>
+
+      <!-- layer 2: top navigation -->
+      <div class="topnavigation">
+         <a href="../index.html"> Home</a>
+         <a href="../html/biography.html">Biography</a>
+         <a href="../html/discography.html">Discography</a>
+         <a href="../html/videos.html">Videos</a>
+         <a href="#">News</a>
+         <a href="#">Fan Club</a>
+         <a href="#">Picture</a>
+         <a href="#">Contact</a>
+         <a href="../html/signup.html">Signup</a>
+      </div>
+
+      <!-- layer 3: signup form -->
+      <div class="section">
+         <form name="signupForm" autocomplete="on">
+            <p class="signup"><label>First Name:</label><input type="text" name="first name" autofocus="autofocus"
+                  required="required">
+            </p>
+
+            <p class="signup">
+               <label>Last Name:</label><input type="text" name="last name" autofocus="autofocus" required="required">
+            </p>
+
+            <p class="signup">
+               <label>Email:</label><input type="email" name="mail" required="required" />
+            </p>
+
+            <p class="signup"> <label> Gender: </label>
+               <label class="gender"><input type="radio" name="g1" />male</label>
+               <label class="gender"><input type="radio" name="g1" />female</label>
+               <label class="gender"><input type="radio" name="g1" />others</label>
+            </p>
+
+            <p class="signup">
+               <label>Course: </label>
+               <select>
+                  <option value="blankone"></option>
+                  <option value="Software development">Software development</option>
+                  <option value="Website development">Web development</option>
+                  <option value="Cyber security">Cyber security</option>
+               </select>
+            </p>
+
+            <p class="signup">
+               <label> Enrolment Date: </label>
+               <input type="datetime-local" name="user_date" />
+            </p>
+
+            <p class="signup">
+               <label>Study mode: </label>
+               <label class="studymode"><input type="radio" name="mode" />online</label>
+               <label class="studymode"><input type="radio" name="mode" />virtual class</label>
+               <label class="studymode"><input type="radio" name="mode" />campus </label>
+            </p>
+
+            <p class="signup">
+               <label>Your preference:</label>
+               <label class="options"><input type="checkbox" name="group discussion" value="" /> Group work </label>
+               <label class="options"><input type="checkbox" name="lecture" value="" /> Assignment </label>
+               <label class="options"><input type="checkbox" name="oral presentation" value="" />
+                  Oral-Presentation</label>
+            </p>
+            <p class="signup">
+               <label>Enter your comments:</label>
+               <textarea row="15" cols="40"></textarea>
+            </p>
+
+            <p class="signup">
+               <input type="submit" name="S" value="Submit form" />
+               <input type="reset" name="reset" value="Clear Form" />
+            </p>
+
+
+         </form>
+
+      </div>
+
+      <!-- layer 4: footer -->
+      <div class="footer">
+         <a href="#"> Editorial Policies</a>
+         <a href="#"> Accessibility</a>
+         <a href="#"> Help</a>
+         <a href="#"> Contact us</a>
+         <a href="#"> Privacy Policy</a>
+         <a href="#"> Term of use</a>
+      </div>
+
+   </div>
+
+</body>
+
+</html>
